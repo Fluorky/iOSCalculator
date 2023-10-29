@@ -65,13 +65,13 @@ class ViewController: UIViewController {
             {
                 label.text = "+";
             }
-            else if sender.tag == 23 //d0t
+            else if sender.tag == 23 //pow
             {
                 label.text = "^";
             }
-            else if sender.tag == 27 //d0t
+            else if sender.tag == 27 //sqrt
             {
-                label.text = "#";
+                label.text = "√";
             }
             
             operation = sender.tag
@@ -137,6 +137,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
